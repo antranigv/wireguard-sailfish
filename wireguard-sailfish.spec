@@ -1,14 +1,14 @@
 #
 # spec file for WireGuard on Sailfish
 #
-Summery: WireGuard for Sailfish
+Summary: WireGuard for Sailfish
 Name: wireguard-sailfish
 Version: 0.1
 Release: 1
-Copyright: GPL
+License: GPL
 Vendor: WireGuard
 Packager: Antranig Vartanian <antranig@vartanian.am>
-Source: https://antranigv.am/misc/wireguard-sailfish.tar.gz
+Source0: https://antranigv.am/misc/wireguard-sailfish.tar.gz
 
 %description
 WireGuard: fast, modern, secure VPN tunnel. This is the Sailfish version.

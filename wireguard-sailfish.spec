@@ -19,6 +19,7 @@ tar xf ${RPM_SOURCE_DIR}/wireguard-sailfish.tar.gz
 %build
 
 %install
+mkdir -p %{buildroot}/%{_bindir}
 install -m 0755 wg wg-quick wireguard-go %{buildroot}/%{_bindir}/
 
 %files

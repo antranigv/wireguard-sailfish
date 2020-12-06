@@ -14,12 +14,12 @@ Source0: https://antranigv.am/misc/wireguard-sailfish.tar.gz
 WireGuard: fast, modern, secure VPN tunnel. This is the Sailfish version.
 
 %prep
+tar xf ${RPM_SOURCE_DIR}/wireguard-sailfish.tar.gz
 
 %build
 
 %install
-cd %{name}
-make install
+install -m 0755 wg wg-quick wireguard-go %{buildroot}/%{_bindir}/
 
 %files
 /usr/bin/wg
